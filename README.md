@@ -13,7 +13,7 @@
 
 # Fibonacci-sequence
 
-<h2> Checkpoint 24/04/2023 <h2>
+<h2> Checkpoint 24/04/2023 </h2>
   
 <br>
   Objetivo:<br>
