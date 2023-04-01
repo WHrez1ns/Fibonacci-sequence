@@ -85,7 +85,7 @@ if resp == 'N' or resp != 'S':
 
 <h3>Slides</h3>
 
-<a href="https://www.canva.com/design/DAFe5B6xArk/1GT5CSYu_7EY2IlOT7rynw/view?utm_content=DAFe5B6xArk&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink">
+<a href="https://www.canva.com/design/DAFe5B6xArk/1GT5CSYu_7EY2IlOT7rynw/view?utm_content=DAFe5B6xArk&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink>
 <img src="canva.png" width="30" height="30"> Fibonacci
 </a>
 
