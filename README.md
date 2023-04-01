@@ -80,7 +80,7 @@ if resp == 'N' or resp != 'S':
 <h3>Vídeo explicativo</h3>
 
 <a href="https://www.youtube.com/">
-<img src="yt.png"> 
+<img src="yt.png"> Apresentação do código
 </a>
 
 <h3>Slides</h3>
