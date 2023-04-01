@@ -18,6 +18,8 @@
   <h3>Objetivo:</h3>
   Elaborar um programa em linguagem <a href="https://www.python.org/"> Python </a>que leia um número inteiro N e, em seguida, mostre na tela os N primeiros termos da sequência de Fibonacci. O valor de N sendo no mínimo 2.
   
+  * Editor Utilizado: <a href="https://code.visualstudio.com/"> Visual Studio Code</a>.
+  
   <h3>Explicação do código:</h3>
   
   Esse código em Python exibe a sequência de Fibonacci de acordo com a quantidade de termos escolhida pelo usuário. A sequência de Fibonacci é uma série de números em que cada número é a soma dos dois números anteriores. Por exemplo, a sequência começa com 0 e 1, depois 1 e 1, 2 e 1, 3 e 2, e assim por diante.
@@ -33,6 +35,11 @@ Por fim, o usuário é perguntado se deseja continuar ou sair do programa. Se a 
 <br>
 
 ```
+```
 
+**<h3>Colaboradores:</h3>**
 
+<a href="https://github.com/CazedaFIAP"> Caio Godoy</a>, <a href="https://github.com/Aykie"> Júlia Barboza Brunelli</a>, <a href="https://github.com/NCalegariS"> Nicholas Calegari</a>, <a href="https://github.com/WHrez1ns"> Renan Dias</a> e <a href=""> Victor Tosto</a>
+<br>
+**RM:98002, 98558, 93912, 99258 e 99599.**
 
