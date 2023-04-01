@@ -20,6 +20,10 @@
   
   * Editor Utilizado: <a href="https://code.visualstudio.com/"> Visual Studio Code</a>.
   
+  <h3>Sequência de Fibonacci</h3>
+  
+  A sequência de Fibonacci é uma sequência matemática em que cada número subsequente é a soma dos dois números anteriores. A sequência começa com 0 e 1, e a partir disso cada número subsequente é a soma dos dois números anteriores, ou seja, 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, e assim por diante. A sequência recebe esse nome em homenagem a Leonardo Fibonacci, um matemático italiano do século XIII que a descreveu em seu livro Liber Abaci. A sequência de Fibonacci tem aplicações em várias áreas da matemática e da ciência, incluindo na teoria dos números, na análise de algoritmos, na análise técnica do mercado financeiro, na biologia e em muitas outras áreas.
+  
   <h3>Explicação do código:</h3>
   
   Esse código é um programa em Python que exibe os termos da sequência de Fibonacci.
