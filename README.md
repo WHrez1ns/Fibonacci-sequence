@@ -79,7 +79,9 @@ if resp == 'N' or resp != 'S':
 ```
 <h3>Vídeo explicativo</h3>
 
-link do video no ytb: ######
+<a href="https://www.youtube.com/">
+<img src="yt.png">
+</a>
 
 **<h3>Colaboradores:</h3>**
 
