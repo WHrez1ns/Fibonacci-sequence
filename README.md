@@ -35,11 +35,12 @@ Por fim, o usuário é perguntado se deseja continuar ou sair do programa. Se a 
 <br>
 
 ```
+print('Hello World!')
 ```
 
 **<h3>Colaboradores:</h3>**
 
 <a href="https://github.com/CazedaFIAP"> Caio Godoy</a>, <a href="https://github.com/Aykie"> Júlia Barboza Brunelli</a>, <a href="https://github.com/NCalegariS"> Nicholas Calegari</a>, <a href="https://github.com/WHrez1ns"> Renan Dias</a> e <a href=""> Victor Tosto</a>
 <br>
-**RM:98002, 98558, 93912, 99258 e 99599.**
+**RM: 98002, 98558, 93912, 99258 e 99599.**
 
