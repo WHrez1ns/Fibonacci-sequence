@@ -1,3 +1,9 @@
+# Caio Godoy - RM 98002
+# Júlia Barboza - RM 98558
+# Nicholas Calegari - RM 93912 
+# Renan Dias da Costa Silva - RM 99258
+# Victor Tosto - RM 99599
+
 print('-'*28)
 print('|  Sequência de Fibonacci  |')
 print('-'*28)
