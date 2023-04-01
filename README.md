@@ -74,8 +74,6 @@ if resp == 'N' or resp != 'S':
     break
 ```
 
-<br>
-
 **<h3>Colaboradores:</h3>**
 
 <a href="https://github.com/CazedaFIAP"> Caio Godoy</a>, <a href="https://github.com/Aykie"> Júlia Barboza Brunelli</a>, <a href="https://github.com/NCalegariS"> Nicholas Calegari</a>, <a href="https://github.com/WHrez1ns"> Renan Dias</a> e <a href=""> Victor Tosto</a>
