@@ -77,6 +77,9 @@ resp = input('\033[37mDeseja continuar? \033[33m(S/N): \033[35m').upper()
 if resp == 'N' or resp != 'S':
     break
 ```
+<h3>Vídeo explicativo</h3>
+
+link do video no ytb: ######
 
 **<h3>Colaboradores:</h3>**
 
