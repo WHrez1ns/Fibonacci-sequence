@@ -17,3 +17,7 @@
   
  <h3> Objetivo:<br> </h3>
   Elaborar um programa em linguagem Python que leia um número inteiro N e, em seguida, mostre na tela os N primeiros termos da sequência de Fibonacci. O valor de N sendo no mínimo 2.
+
+```
+print("Hello World")
+```
