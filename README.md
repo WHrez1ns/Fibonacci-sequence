@@ -13,7 +13,7 @@
 
 # Fibonacci-sequence
 
-<h2> Checkpoint 24/03/2023 - <a href="https://www.linkedin.com/in/fabio-cabrini/"> Fábio Henrique Cabrini</a> </h2>
+<h2> Checkpoint 24/03/2023 </h2>
   
   <h3>Objetivo:</h3>
   Elaborar um programa em linguagem <a href="https://www.python.org/"> Python </a>que leia um número inteiro N e, em seguida, mostre na tela os N primeiros termos da sequência de Fibonacci. O valor de N sendo no mínimo 2.
@@ -22,24 +22,63 @@
   
   <h3>Explicação do código:</h3>
   
-  Esse código em Python exibe a sequência de Fibonacci de acordo com a quantidade de termos escolhida pelo usuário. A sequência de Fibonacci é uma série de números em que cada número é a soma dos dois números anteriores. Por exemplo, a sequência começa com 0 e 1, depois 1 e 1, 2 e 1, 3 e 2, e assim por diante.
+  Esse código é um programa em Python que exibe os termos da sequência de Fibonacci.
 
-O código começa com a impressão de um título e, em seguida, define uma função chamada "fibonacci_sequence", que exibe os termos da sequência. A função recebe três parâmetros: os dois primeiros termos e um contador que indica quantos termos devem ser exibidos.
+Primeiro, o programa exibe um título em verde e traços decorativos. Em seguida, é definida uma função chamada fibonacci_sequence que recebe três parâmetros: term_1, term_2 e contador.
 
-Em seguida, o código entra em um loop infinito que permite ao usuário continuar ou sair do programa. Dentro desse loop, o usuário é solicitado a fornecer o número de termos que deseja exibir na sequência de Fibonacci. Em seguida, a função "fibonacci_sequence" é chamada e os dois primeiros termos são passados como argumentos, juntamente com o contador fornecido pelo usuário.
+```
+print('\033[32m-'*28)
+print('|  Sequência de Fibonacci  |')
+print('-'*28)
 
-A função exibe os dois primeiros termos e, em seguida, usa um loop "for" para exibir os termos restantes. Para cada número na sequência (exceto os dois primeiros), a função calcula o terceiro termo, exibe-o e atualiza os dois primeiros termos. Quando a sequência é concluída, a função imprime "end sequence".
+def fibonacci_sequence(term_1, term_2, contador):
+```
 
-Por fim, o usuário é perguntado se deseja continuar ou sair do programa. Se a resposta for "N", o loop infinito é quebrado e o programa é encerrado.
+Dentro da função, os dois primeiros termos são exibidos em azul, seguidos pelos próximos termos da sequência até o número contador. Em cada iteração do loop for, o terceiro termo é calculado e exibido em azul, e em seguida, a sequência é passada para frente. Ao final da exibição dos termos, é exibida a mensagem "end sequence" em vermelho.
+
+```
+def fibonacci_sequence(term_1, term_2, contador):
+    print(f'\033[34m{term_1} -> {term_2}', end='')
+    for num in range(2, contador):
+        term_3 = term_1 + term_2
+        print(f' -> {term_3}', end='')
+        term_1 = term_2
+        term_2 = term_3
+    print('\033[31m -> end sequence')
+    print(' ')
+```
+
+Em seguida, o programa entra em um loop infinito que permite que o usuário escolha quantos termos da sequência de Fibonacci deseja ver. O usuário é solicitado a inserir um número inteiro. Se o usuário inserir algo que não seja um número inteiro, uma mensagem de erro em vermelho é exibida e ele é solicitado a inserir um número inteiro novamente.
+
+```
+while True:
+    print(' ')
+    print('\033[32m~'*104)
+    print(' ')
+    while True:
+        try:
+            n = int(
+                input('\033[37mQuantos termos você quer mostrar? \033[35m'))
+            break
+        except:
+            print('\033[31m*ERROR* Apenas números são válidos!')
+    print(' ')
+    fibonacci_sequence(0, 1, n)
+```
+
+Após a exibição dos termos, o usuário é perguntado se deseja continuar a exibir a sequência. Se a resposta for "N" ou qualquer outra resposta diferente de "S", o loop infinito é interrompido e o programa é finalizado.
+
+```
+resp = input('\033[37mDeseja continuar? \033[33m(S/N): \033[35m').upper()
+if resp == 'N' or resp != 'S':
+    break
+```
 
 <br>
-
-```
-```
 
 **<h3>Colaboradores:</h3>**
 
 <a href="https://github.com/CazedaFIAP"> Caio Godoy</a>, <a href="https://github.com/Aykie"> Júlia Barboza Brunelli</a>, <a href="https://github.com/NCalegariS"> Nicholas Calegari</a>, <a href="https://github.com/WHrez1ns"> Renan Dias</a> e <a href=""> Victor Tosto</a>
 <br>
-**RM:98002, 98558, 93912, 99258 e 99599.**
+**RM: 98002, 98558, 93912, 99258 e 99599.**
 
