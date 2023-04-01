@@ -22,6 +22,6 @@ t2 = 1
 # Exibindo sequência
 print(' ')
 # fstring para fazer referência a variáveis no código | parâmetro end para não pular linha
-print(f'{t1} -> {t2}, end=''')
+print(f'{t1} -> {t2}',end='')
 t3 = t1 + t2
-print(f' -> {t3}, end=''')
+print(f' -> {t3}',end='')
