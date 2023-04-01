@@ -72,9 +72,7 @@ Após a exibição dos termos, o usuário é perguntado se deseja continuar a ex
 resp = input('\033[37mDeseja continuar? \033[33m(S/N): \033[35m').upper()
 if resp == 'N' or resp != 'S':
     break
-```
-
-<br>
+``` 
 
 **<h3>Colaboradores:</h3>**
 
