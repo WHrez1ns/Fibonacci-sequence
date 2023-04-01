@@ -13,7 +13,7 @@
 
 # Fibonacci-sequence
 
-<h2> Checkpoint 24/03/2023 </h2>
+<h2> Checkpoint 24/03/2023 - <a href="https://www.linkedin.com/in/fabio-cabrini/"> Fábio Henrique Cabrini </a></h2>
   
   <h3>Objetivo:</h3>
   Elaborar um programa em linguagem <a href="https://www.python.org/"> Python </a>que leia um número inteiro N e, em seguida, mostre na tela os N primeiros termos da sequência de Fibonacci. O valor de N sendo no mínimo 2.
@@ -72,7 +72,9 @@ Após a exibição dos termos, o usuário é perguntado se deseja continuar a ex
 resp = input('\033[37mDeseja continuar? \033[33m(S/N): \033[35m').upper()
 if resp == 'N' or resp != 'S':
     break
-``` 
+```
+
+<br>
 
 **<h3>Colaboradores:</h3>**
 
