@@ -52,7 +52,7 @@ def fibonacci_sequence(term_1, term_2, contador):
     print(' ')
 ```
 
-Em seguida, o programa entra em um loop infinito que permite que o usuário escolha quantos termos da sequência de Fibonacci deseja ver. O usuário é solicitado a inserir um número inteiro. Se o usuário inserir algo que não seja um número inteiro, uma mensagem de erro em vermelho é exibida e ele é solicitado a inserir um número inteiro novamente.
+Em seguida, o programa entra em um loop infinito que permite que o usuário escolha quantos termos da sequência de Fibonacci deseja ver. O usuário é solicitado a inserir um número inteiro que seja no mínimo 2. Se o usuário inserir algo que não seja um número inteiro ou < 2, uma mensagem de erro em vermelho é exibida e ele é solicitado a inserir um número inteiro novamente.
 
 ```
 while True:
@@ -63,7 +63,10 @@ while True:
         try:
             n = int(
                 input('\033[37mQuantos termos você quer mostrar? \033[35m'))
-            break
+            if n < 2:
+                print('\033[31m*ERROR* O número precisa ser maior do que 2!')
+            else:
+                break
         except:
             print('\033[31m*ERROR* Apenas números são válidos!')
     print(' ')
