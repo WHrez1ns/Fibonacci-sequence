@@ -79,7 +79,7 @@ if resp == 'N' or resp != 'S':
 ```
 <h3>Vídeo explicativo</h3>
 
-<a href="https://www.youtube.com/">
+<a href="https://youtu.be/OBoyAa0Kcv0">
 <img src="yt.png"> Apresentação do código
 </a>
 
