@@ -21,7 +21,7 @@ while True:
             n = int(
                 input('\033[37m|  Quantos termos você quer mostrar? \033[35m'))
             if n < 2:
-                print('\033[31m|  *ERROR* O número precisa ser maior do que 2!')
+                print('\033[31m|  *ERROR* O número precisa ser maior ou igual a 2!')
             else:
                 break
         except ValueError:
