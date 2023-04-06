@@ -26,60 +26,16 @@
   
   <h3>Explicação do código:</h3>
   
-  Esse código é um programa em Python que exibe os termos da sequência de Fibonacci.
+  Esse programa é responsável por gerar e exibir a sequência de Fibonacci com base na entrada do usuário. Para isso, ele utiliza a função "fibonacci_sequence" do módulo "function".
 
-Primeiro, o programa exibe um título em verde e traços decorativos. Em seguida, é definida uma função chamada fibonacci_sequence que recebe três parâmetros: term_1, term_2 e contador.
+O programa começa exibindo uma mensagem de boas-vindas e um cabeçalho indicando que a sequência de Fibonacci será gerada. Em seguida, o programa entra em um loop que só é interrompido quando o usuário escolhe a opção "N" para encerrar o programa.
 
-```
-print('\033[32m-'*28)
-print('|  Sequência de Fibonacci  |')
-print('-'*28)
+Dentro do loop principal, o programa solicita ao usuário que digite a quantidade de termos da sequência de Fibonacci que deseja ver. O programa valida a entrada do usuário e exibe mensagens de erro quando a entrada não é válida. Depois de validar a entrada do usuário, o programa chama a função "fibonacci_sequence" com os argumentos 0, 1 e n, onde n é o número de termos solicitados pelo usuário.
 
-def fibonacci_sequence(term_1, term_2, contador):
-```
+A função "fibonacci_sequence" é responsável por gerar e exibir a sequência de Fibonacci. Ela recebe como argumentos os dois primeiros termos da sequência e a quantidade total de termos a serem gerados. A função usa um loop for para gerar os termos da sequência e exibi-los na tela.
 
-Dentro da função, os dois primeiros termos são exibidos em azul, seguidos pelos próximos termos da sequência até o número contador. Em cada iteração do loop for, o terceiro termo é calculado e exibido em azul, e em seguida, a sequência é passada para frente. Ao final da exibição dos termos, é exibida a mensagem "end sequence" em vermelho.
+Após exibir a sequência, o programa pergunta ao usuário se ele deseja continuar ou encerrar o programa. O programa valida a entrada do usuário e exibe mensagens de erro quando a entrada não é válida. Se o usuário escolher continuar, o programa retorna ao início do loop e solicita novamente a quantidade de termos da sequência a ser gerada. Se o usuário escolher encerrar o programa, o programa exibe uma mensagem de encerramento e pausa a execução por um segundo antes de encerrar completamente.
 
-```
-def fibonacci_sequence(term_1, term_2, contador):
-    print(f'\033[34m{term_1} -> {term_2}', end='')
-    for num in range(2, contador):
-        term_3 = term_1 + term_2
-        print(f' -> {term_3}', end='')
-        term_1 = term_2
-        term_2 = term_3
-    print('\033[31m -> end sequence')
-    print(' ')
-```
-
-Em seguida, o programa entra em um loop infinito que permite que o usuário escolha quantos termos da sequência de Fibonacci deseja ver. O usuário é solicitado a inserir um número inteiro que seja no mínimo 2. Se o usuário inserir algo que não seja um número inteiro ou < 2, uma mensagem de erro em vermelho é exibida e ele é solicitado a inserir um número inteiro novamente.
-
-```
-while True:
-    print(' ')
-    print('\033[32m~'*104)
-    print(' ')
-    while True:
-        try:
-            n = int(
-                input('\033[37mQuantos termos você quer mostrar? \033[35m'))
-            if n < 2:
-                print('\033[31m*ERROR* O número precisa ser maior do que 2!')
-            else:
-                break
-        except:
-            print('\033[31m*ERROR* Apenas números são válidos!')
-    print(' ')
-    fibonacci_sequence(0, 1, n)
-```
-
-Após a exibição dos termos, o usuário é perguntado se deseja continuar a exibir a sequência. Se a resposta for "N" ou qualquer outra resposta diferente de "S", o loop infinito é interrompido e o programa é finalizado.
-
-```
-resp = input('\033[37mDeseja continuar? \033[33m(S/N): \033[35m').upper()
-if resp == 'N' or resp != 'S':
-    break
-```
 <h3>Vídeo explicativo</h3>
 
 <a href="https://youtu.be/OBoyAa0Kcv0">
