@@ -38,7 +38,7 @@ Após exibir a sequência, o programa pergunta ao usuário se ele deseja continu
 
 <h3>Vídeo explicativo</h3>
 
-<a href="https://youtu.be/OBoyAa0Kcv0">
+<a href="https://youtu.be/ZbbqdNuSD2M">
 <img src="yt.png"> Apresentação do código
 </a>
 
